@@ -25,4 +25,21 @@ function operate(operator, num1, num2){
     }
 }
 
-console.log(operate("*", 9, 13))
+let displayOne = document.querySelector('.top');
+
+
+function btnClick() {
+    let btn = document.querySelectorAll('.btn');
+    btn.forEach((selectedBtn) => {
+        selectedBtn.addEventListener('click', () => {
+            // if a number is picked
+            if (selectedBtn.id <= 9 || selectedBtn.id >= 0) {
+                displayOne.textContent += selectedBtn.id;
+            } else if (selectedBtn.classList.contains('operation')){
+                displayOne.textContent += " " + selectedBtn.id + " ";
+            }
+        })
+    })
+}
+
+btnClick();
