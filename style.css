@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@1,700&family=VT323&display=swap');
+
+* {
+    font-family: 'VT323', 'space Mono', monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid wheat;
+    height: 700px;
+    width: 400px;
+}
+
+.calculator-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -15px;
+}
+
+.left p{
+    margin-top: -20px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+   
+}
+ .right p{
+    margin: 3px;
+    align-self: flex-end;
+ }
+
+
+.solar-panel {
+    background-color: darkslategray;
+    height: 30px;
+    width: 130px;
+    border: 10px solid darkslategray;
+    border-radius: 6px;
+}
+
+.calculator-screen {
+    background-color: lightgoldenrodyellow;
+    height: 100px;
+    width: 350px;
+    align-self: center;
+    border:10px solid lightgoldenrodyellow;
+    border-radius: 10px;
+}
+
+
+
+
+
