@@ -4,19 +4,28 @@
     font-family: 'VT323', 'space Mono', monospace;
 }
 
+html{
+    height: 100%;
+}
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: aquamarine;
+    height: 100%;
+    min-height: 100%;
+    margin: 0px;
 }
 
 .calculator {
     display: flex;
     flex-direction: column;
     border: 5px solid wheat;
-    height: 700px;
+    border-radius: 5px;
+    height: 540px;
     width: 400px;
+    margin-top: 50px;
 }
 
 .calculator-top {
@@ -62,7 +71,75 @@ body {
     align-self: center;
     border:10px solid lightgoldenrodyellow;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
 }
+
+.top {
+    display: flex;
+    align-self: flex-end;
+    font-size: larger;
+}
+
+.bottom {
+    display: flex;
+    margin-top: auto;
+    align-self: flex-end;
+    font-size:xx-large;
+}
+
+.calculator-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    
+}
+
+.rows {
+   display: flex;
+}
+
+.btn {
+    display: flex;
+    height: 40px;
+    width: 55px;
+    border: 1px solid gray;
+    margin: 7px;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.btn:hover {
+    display: flex;
+    height: 40px;
+    width: 55px;
+    border: 2px solid gray;
+    margin: 6px;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.btn:active {
+    display: flex;
+    height: 40px;
+    width: 55px;
+    border: 1px solid gray;
+    margin: 7px;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;;
+}
+
+footer{
+    display: flex;
+    margin-top: auto;
+    gap: 8px;
+}
+
 
 
 
