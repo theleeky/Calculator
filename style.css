@@ -144,6 +144,33 @@ footer{
     gap: 8px;
 }
 
+.operation,
+#del,
+#AC,
+.equals {
+    background-color: lightsalmon;
+    border: 1px solid lightsalmon;
+    border-radius: 3px;;
+}
+
+
+.operation:hover,
+#del:hover,
+#AC:hover,
+.equals:hover {
+    background-color: lightsalmon;
+    border: 2px solid lightsalmon;
+    border-radius: 3px;;
+}
+
+.operation:active,
+#del:active,
+#AC:active,
+.equals:active {
+    background-color: lightsalmon;
+    border: 1px solid lightsalmon;
+    border-radius: 3px;;
+}
 
 
 
